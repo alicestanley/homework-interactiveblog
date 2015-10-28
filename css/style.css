@@ -1,0 +1,282 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+html {
+    box-sizing: border-box;
+    position: relative;
+    min-height: 100%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Clearfix: contain floats */
+
+.header:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+.topnav {
+    float: right;
+    width: 70%;
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
+    margin: 20px;
+}
+
+.toplogo {
+    float: left;
+    width: 30%;
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
+    margin-left: 20px;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+
+body {
+    color: #033048;
+    line-height: 1.4;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 0 100px; /* bottom = footer height */
+    background-color: #f0efef;
+}
+
+.mainbody:after {
+    content: " ";
+    display: block;
+    clear: both;
+
+}
+.rightaside {
+    float: right;
+    width: 30%;
+    padding: 10 10 10px 10px; /* note the padding around a right floated image */
+    max-width: 240px;
+
+
+}
+
+.blog {
+    float: left;
+    width: 70%;
+    padding: 10px 10px 10px 10px; /* note the padding around a left floated image */
+    max-width: 700px;
+
+}
+
+.hidden {
+    display: none;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #033048;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  color: #033048;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 20px;
+} 
+
+h4
+{
+    font-family: 'Open Sans', sans-serif;
+    color: #f9e42e;
+    text-align: right;
+    font-weight: 600;
+    font-size: 24px;
+}
+h5{
+    font-family: 'Open Sans', sans-serif;
+    color: #033048;
+    text-align: left;
+    font-weight: 200;
+    font-size: 22px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #033048;
+    text-align: left;
+    font-weight: 200;
+    font-size: 24px;
+}
+p::first-letter {
+    font-size: 200%;
+}
+
+ul{
+
+}
+
+li {
+    font-family: 'Open Sans', sans-serif;
+    color: #033048;
+    text-align: left;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.horizontallist{
+    display: inline; 
+    padding: 15px; 
+}
+
+.verticlelist{
+    font-family: 'Open Sans', sans-serif;
+    
+    text-align: left;
+    font-weight: 200;
+    font-size: 24px;
+}
+  
+.asidenav{
+    color: #033048;
+
+}  
+
+a { 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #606161;
+}
+
+.toplogo{
+    
+    float: left;
+    width: 60%;
+    margin-left: 50px; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    
+}
+
+.navlink{
+  font-family: 'Open Sans', sans-serif;
+  color: #f9e42e;
+  text-align: right;
+}
+
+hr{
+  border-color: #033048;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+header {
+    background-color: #033048;
+
+}
+
+.secondsection{
+  display: block;
+  background-color: #f9e42e;
+  padding: 50px;   
+  text-align: center;
+}
+
+.footerblack{
+  display: block;
+  background-color: #121212;
+  padding: 50px;   
+  text-align: center;
+}
+
+.secondcontainer{
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+  border: 5px;
+  border-radius: 2px;
+  background-color: #033048;
+  color: white;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    color: white; 
+    text-align: center;
+}
+
+.readmoresection{
+    text-align: right;
+    color: #033048;
+}
+
+.adspace{
+    border: solid;
+    border-color: #033048;
+    margin-top: 20px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.bottomlogo{
+  margin: center;
+  width: 10%;
+  padding: 10px;  
+
+}
+
+.socialimages{
+  padding: 10px;  
+}
+
+.readmorelink{
+  text-align: right; 
+  color: #033048;
+  font-weight: 200px;
+  font-size: 24px;
+}
+
+.readlesslink{
+  text-align: right; 
+  color: #033048;
+  font-weight: 200px;
+  font-size: 24px;
+}
+.learnmorelink{
+  text-align: right; 
+  color: #033048;
+  font-weight: 600px;
+  font-size: 22px;
+}
+
+
